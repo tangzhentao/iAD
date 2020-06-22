@@ -1,1 +1,2 @@
 # iAD
+iOS Archive、Distribute
