@@ -25,8 +25,11 @@ enum BuildTpye: String {
  
  shell命令实例：
  xcodebuild archive -project iADDemo.xcodeproj -scheme iADDemo -configuration Release -archivePath ./0622/iADDemo.xcarchive
-
+ 
  xcodebuild archive -workspace iADDemo.xcworkspace -scheme iADDemo -configuration Release -archivePath ./0622/iADDemo.xcarchive
+ 
+ xcodebuild archive -workspace /Users/void/projectes/AnyTimeChat/AnyTimeChat.xcworkspace -scheme AnyTimeChat -configuration Release -archivePath /Users/void/projectes/ipa/2020-06-28/AnyTimeChat.xcarchive
+
  */
 struct ArchiveTask: Shellable {
     let inPath: String // .xcodeproj/.xcworkspace 完整路径

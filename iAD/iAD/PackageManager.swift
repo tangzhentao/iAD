@@ -14,8 +14,9 @@ struct PackageManager {
     let rootDirectory: String
     let outDirectory: String
     
-    let launchPath = "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild"
-    
+//    let launchPath = "/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild"
+    let launchPath = "/usr/bin/xcodebuild"
+
     var tasks = [PackageTask]()
     
     init(inPath: String, targetNames: [String], rootDirectory: String) {

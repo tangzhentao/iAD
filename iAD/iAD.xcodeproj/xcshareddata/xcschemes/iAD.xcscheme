@@ -52,11 +52,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/void/projectes/testbed/iADDemo/iADDemo.xcworkspace"
+            argument = "/Users/void/projectes/AnyTimeChat/AnyTimeChat.xcworkspace"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "iADDemo"
+            argument = "AnyTimeChat"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

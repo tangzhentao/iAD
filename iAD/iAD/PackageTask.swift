@@ -59,7 +59,7 @@ struct PackageTask {
         }
         
         // archive
-        self.archiveTask.perform()
+        self.archiveTask.perform(captureOuput: false)
         self.archiveTask.printPerformResult()
         self.terminationStatus = self.archiveTask.terminationStatus
         self.output = self.archiveTask.output
@@ -67,7 +67,7 @@ struct PackageTask {
             return
         }
         // export
-        self.exportTask.perform()
+        self.exportTask.perform(captureOuput: false)
         self.exportTask.printPerformResult()
         self.terminationStatus = self.exportTask.terminationStatus
         self.output = self.exportTask.output
